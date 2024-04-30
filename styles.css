@@ -1,0 +1,63 @@
+#omega-img {
+    width: 50%;
+    height: 50%;
+    border: black 1px solid;
+}
+
+.omega-ppal {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:20px;
+align-items: center;
+margin:10px 0;
+}
+
+.accordion {
+    border:black 1px solid
+}
+
+.boton-encuesta {
+    background-color: blue;
+    padding:10px;
+    border-radius: 5%;
+    border: black 1px solid;
+}
+
+.boton-encuesta:hover {
+    background-color: yellow;
+    color: black;
+}
+
+div h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+footer div img {
+  width: 24px;
+  height: 24px;
+}
+
+.iconos-contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.cita {
+  font-style: italic
+}
